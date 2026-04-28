@@ -5,6 +5,8 @@ on:
 
 jobs:
   lintingOperation:
+    permissions: 
+      security-events: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
